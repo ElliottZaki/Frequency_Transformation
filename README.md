@@ -16,7 +16,7 @@ We might require if statements - logic.
 Ensure that the list of the array is maintained in the correct order.
 
 What does these numbers mean?
-- 3x parameters. An array of numbers constitute of a sound wave. A band pass filter transforms frequencies. So they conform to a a range. 
+- 3x parameters. An array of numbers constitute a sound wave. A band pass filter transforms frequencies. So they conform to a a range. 
 - 20, 50 represent the lower and upper limits. 
 
 Edge cases:
