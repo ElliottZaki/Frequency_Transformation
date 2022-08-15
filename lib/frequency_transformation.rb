@@ -1,6 +1,6 @@
 array = [60,10,45,60,1500]
-LOWER_PARAMETER = 20
-HIGHER_PARAMETER = 50
+LOWEST_PARAMETER = 20
+HIGHEST_PARAMETER = 50
 
 #Short-hand Syntax:
 def transformation(array)
@@ -10,10 +10,10 @@ end
 #Method for readability:
 def transformation(array)
   array.map do |x| 
-    if x < LOWER_PARAMETER  
-      LOWER_PARAMETER 
-    elsif x > HIGHER_PARAMETER
-      HIGHER_PARAMETER
+    if x < LOWEST_PARAMETER  
+      LOWEST_PARAMETER 
+    elsif x > HIGHEST_PARAMETER
+      HIGHEST_PARAMETER
     else
       x 
     end
