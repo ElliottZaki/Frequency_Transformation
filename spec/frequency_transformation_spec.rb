@@ -4,4 +4,8 @@ require './lib/frequency_transformation.rb'
     it 'does not change any number thats within range (20 - 50)' do
       expect(transformation([40])).to eq([40])
     end
-  end
+
+    it 'converts any number below the lowest_paramenter value (20) to 20' do
+      expect(transformation([40, 10])).to eq([40, 20])
+    end
+  end 
